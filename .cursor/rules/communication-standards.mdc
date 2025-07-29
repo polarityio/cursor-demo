@@ -1,0 +1,232 @@
+# Communication Standards for Cursor AI
+
+**Purpose:** Establish consistent, beginner-friendly communication patterns that reduce AI interaction cycles and improve development velocity across any technology stack.
+
+**Source Verification:** Patterns verified through production transcripts and community best practices.
+
+---
+
+## Quick Reference
+
+**👤 Always Include Context**
+- Start with brief context of current task
+- Mention files you're working with
+- State your experience level when relevant
+
+**🎯 Use Copyable Question Formats**
+- Format questions in code blocks for easy copying
+- Structure multiple questions as numbered lists
+- Include specific examples when asking for help
+
+**📋 Checkpoint System**
+- Ask "Did we fix the problem?" regularly
+- Verify "What was our original goal?" 
+- Confirm understanding before major changes
+
+---
+
+## Core Communication Rules
+
+### 1. Copyable Question Format
+
+**Always format questions for easy copying and sharing:**
+
+```markdown
+**Questions for Review:**
+
+1. How should I handle error cases in this API call?
+   - Current approach: try/catch with generic messages
+   - Specific concern: Users need actionable error information
+
+2. Should I create separate files for different error types?
+   - Error mapping logic is getting complex
+   - Considering: error-mapping.js vs inline handling
+
+3. What's the best practice for input validation here?
+   - Input: User-provided URLs and API endpoints
+   - Security concern: Injection attacks and SSRF
+```
+
+**Benefits:**
+- 60-80% reduction in back-and-forth clarification
+- Easier to share with team members
+- Clear documentation of decision points
+- [Quality Control Standards](quality-control.mdc) integration
+
+### 2. Context Management
+
+**Provide Essential Context Every Time:**
+
+```markdown
+**Current Context:**
+- Working on: authentication.js (API integration)
+- Problem: 401 errors not handled gracefully
+- Last working state: Basic connection established
+- Target: User-friendly error messages
+- Experience level: Intermediate with APIs, new to this framework
+```
+
+**Context Checklist:**
+- [ ] Current file/feature being worked on
+- [ ] Specific problem or goal
+- [ ] What was last working
+- [ ] Your experience level with relevant technology
+- [ ] Timeline constraints (if any)
+
+**Related:** [Problem-Solving Methods](problem-solving.mdc#context-gathering)
+
+### 3. Progress Verification System
+
+**Use Regular Checkpoints:**
+
+```markdown
+**Checkpoint Questions:**
+- Did we solve the original authentication issue?
+- Are we still focused on user-friendly error messages?
+- Should we commit this change before moving forward?
+- What assumptions are we making about the API response format?
+```
+
+**Implementation Pattern:**
+1. **Before major changes:** "Let me verify our current goal..."
+2. **After implementation:** "Did this solve the original problem?"
+3. **Before commits:** "Are all requirements satisfied?"
+4. **Context switches:** "Quick summary of where we are..."
+
+### 4. Error Prevention Communication
+
+**Always Declare Assumptions:**
+
+```markdown
+**Assumptions I'm Making:**
+- API returns JSON format for errors
+- HTTP status codes follow REST conventions  
+- User has Node.js 18+ environment
+- Database schema matches the documentation
+```
+
+**Validation Prompts:**
+- "Are these assumptions correct?"
+- "Did we test edge cases?"
+- "Should we add input validation here?"
+- "Are we following security best practices?"
+
+**Security Integration:** [Security Practices](security-practices.mdc#input-validation)
+
+---
+
+## Advanced Communication Patterns
+
+### 5. Scope and Focus Management
+
+**Keep Conversations Focused:**
+
+```markdown
+**Session Scope:**
+- Primary: Fix authentication error handling
+- Secondary: Improve error message clarity
+- Out of scope: Performance optimization, UI changes
+
+**Decision Record:**
+- Chosen approach: Custom error mapping class
+- Alternative considered: Generic error wrapper
+- Reason: Better user experience and debugging
+```
+
+### 6. Technical Specification Format
+
+**For Complex Technical Discussions:**
+
+```markdown
+**Technical Requirements:**
+- Input: REST API responses (JSON)
+- Output: User-friendly error messages (String)
+- Constraints: Must preserve error codes for debugging
+- Dependencies: None (vanilla JavaScript)
+- Testing: Unit tests required for error scenarios
+```
+
+**Performance Expectations:**
+- Error processing: < 5ms overhead
+- Memory usage: Minimal (no large objects cached)
+- Compatibility: Node.js 16+ and modern browsers
+
+### 7. Code Review Communication
+
+**When Requesting Code Review:**
+
+```markdown
+**Review Focus Areas:**
+1. Security: Input validation on user-provided URLs
+2. Error handling: Are all edge cases covered?
+3. Testing: Do tests cover the authentication failure scenarios?
+4. Documentation: Is the error message mapping clear?
+
+**Specific Questions:**
+- Line 42: Is this the right place for input sanitization?
+- Function validateApiResponse(): Should we add schema validation?
+- Error codes 401/403: Are these handled consistently?
+```
+
+**Integration:** [Development Workflow](development-workflow.mdc#code-review-process)
+
+---
+
+## Language and Tone Guidelines
+
+### 8. Professional Communication Style
+
+**Preferred Language Patterns:**
+- **Clear and Direct:** "This needs input validation" vs "Maybe we should consider validation"
+- **Specific:** "Add try/catch to line 23" vs "Error handling needed somewhere"
+- **Action-Oriented:** "Create error-mapping.js" vs "We might want error handling"
+
+**Avoid:**
+- Overly enthusiastic language ("amazing," "brilliant")
+- Vague requests ("make it better," "fix the issues")
+- Assumptions about experience level without clarification
+
+### 9. Documentation Integration
+
+**Always Reference Related Files:**
+
+```markdown
+**Related Documentation:**
+- [Development Workflow](development-workflow.mdc) - For TDD and commit practices
+- [Security Practices](security-practices.mdc) - For input validation requirements
+- [Quality Control](quality-control.mdc) - For testing standards
+
+**External Resources:**
+- [OWASP Input Validation](https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs) - Security guidelines
+- [Semantic Commit Messages](https://www.conventionalcommits.org/) - Commit format standards
+```
+
+---
+
+## Quick Implementation Checklist
+
+**✅ Start Using Today:**
+- [ ] Format next question in a copyable code block
+- [ ] Include current context in next AI conversation
+- [ ] Use checkpoint questions before major changes
+- [ ] Declare assumptions explicitly
+
+**✅ This Week:**
+- [ ] Implement progress verification system
+- [ ] Create template for technical specifications
+- [ ] Practice scope management in conversations
+- [ ] Link to related documentation in discussions
+
+**✅ Advanced Usage:**
+- [ ] Develop team communication templates
+- [ ] Integrate with [Conversation-Driven Development](conversation-driven.mdc)
+- [ ] Establish code review communication standards
+- [ ] Create project-specific communication guidelines
+
+---
+
+**Next Steps:** Review [Development Workflow](development-workflow.mdc) for TDD integration patterns or [Security Practices](security-practices.mdc) for secure communication about credentials and sensitive data.
+description:
+globs:
+alwaysApply: false
+---
