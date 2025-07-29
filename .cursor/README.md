@@ -26,7 +26,7 @@ A comprehensive set of 6 universal rule categories extracted from production dev
 
 ## 📚 Rule Categories Overview
 
-### 🗣️ [Communication Standards](rules/communication-standards.mdc)
+### 🗣️ [Communication Standards](@rules/always-on/communication-standards.mdc)
 **Always Apply Global** | **Beginner-Friendly** | **Immediate Impact**
 
 Master the art of communicating with AI for faster, more accurate results.
@@ -43,7 +43,7 @@ Key Features:
 **Time to implement:** 15 minutes  
 **ROI:** 26.4x (highest impact category)
 
-### ⚙️ [Development Workflow](rules/development-workflow.mdc)
+### ⚙️ [Development Workflow](@rules/manual/development-workflow.mdc)
 **Project-Specific** | **Intermediate** | **Foundational**
 
 Implement Test-Driven Development (TDD) and file organization patterns that scale.
@@ -60,7 +60,7 @@ Key Features:
 **Time to implement:** 2-4 hours  
 **ROI:** 12.8x (sustainable long-term gains)
 
-### 🛡️ [Security Practices](rules/security-practices.mdc)
+### 🛡️ [Security Practices](@rules/always-on/security-practices.mdc)
 **Always Apply Global** | **Critical** | **Risk Mitigation**
 
 Security-first development practices that prevent vulnerabilities before they happen.
@@ -77,7 +77,7 @@ Key Features:
 **Time to implement:** 3-6 hours  
 **ROI:** 15.2x (prevent costly security incidents)
 
-### 🔍 [Quality Control](rules/quality-control.mdc)
+### 🔍 [Quality Control](@rules/manual/quality-control.mdc)
 **Professional Teams** | **Advanced** | **Scalability**
 
 Comprehensive testing, documentation, and code review standards.
@@ -94,7 +94,7 @@ Key Features:
 **Time to implement:** 1-2 weeks  
 **ROI:** 8.7x (compound benefits over time)
 
-### 🔧 [Problem-Solving](rules/problem-solving.mdc)
+### 🔧 [Problem-Solving](@rules/always-on/problem-solving.mdc)
 **Senior Developers** | **Advanced** | **Systematic Debugging**
 
 Evidence-based debugging and systematic troubleshooting methods.
@@ -111,7 +111,7 @@ Key Features:
 **Time to implement:** 4-8 hours  
 **ROI:** 7.3x (save significant debugging time)
 
-### 💬 [Conversation-Driven Development](rules/conversation-driven.mdc)
+### 💬 [Conversation-Driven Development](@rules/always-on/conversation-driven.mdc)
 **AI Power Users** | **Expert** | **Maximum AI Productivity**
 
 Advanced patterns for structuring AI conversations and iterative development.
@@ -149,9 +149,9 @@ Expected Results:
 ```
 
 **Implementation Order:**
-1. Week 1: [Communication Standards](rules/communication-standards.mdc) 
-2. Week 2: [Security Practices](rules/security-practices.mdc) basics
-3. Week 3: [Development Workflow](rules/development-workflow.mdc) TDD patterns
+1. Week 1: [Communication Standards](@rules/always-on/communication-standards.mdc) 
+2. Week 2: [Security Practices](@rules/always-on/security-practices.mdc) basics
+3. Week 3: [Development Workflow](@rules/manual/development-workflow.mdc) TDD patterns
 4. Week 4: Integration and refinement
 
 ### 🚀 Professional Package (1-2 months)
@@ -172,7 +172,7 @@ Expected Results:
 
 **Implementation Order:**
 1. Month 1: Complete Starter Package
-2. Month 2: [Quality Control](rules/quality-control.mdc) + [Problem-Solving](rules/problem-solving.mdc)
+2. Month 2: [Quality Control](@rules/manual/quality-control.mdc) + [Problem-Solving](@rules/always-on/problem-solving.mdc)
 
 ### 🎯 Expert Package (2-3 months)
 **Perfect for:** AI-heavy workflows, complex projects, maximum productivity
@@ -180,7 +180,7 @@ Expected Results:
 ```markdown
 Apply These Rules:
 📋 Full Professional Package +
-📋 Conversation-Driven Development (Advanced AI patterns)
+📋 Conversation-Driven Development (@rules/always-on/conversation-driven.mdc) (Advanced AI patterns)
 📋 Advanced integrations across all rules
 
 Expected Results:
@@ -199,9 +199,9 @@ Each rule file contains relative links to related concepts:
 
 ```markdown
 Examples of Rule Integration:
-• Communication Standards → Quality Control (code review communication)
-• Security Practices → Development Workflow (secure TDD practices)  
-• Problem-Solving → Conversation-Driven (AI-assisted debugging)
+• Communication Standards (@rules/always-on/communication-standards.mdc) → Quality Control (@rules/manual/quality-control.mdc) (code review communication)
+• Security Practices (@rules/always-on/security-practices.mdc) → Development Workflow (@rules/manual/development-workflow.mdc) (secure TDD practices)  
+• Problem-Solving (@rules/always-on/problem-solving.mdc) → Conversation-Driven (@rules/always-on/conversation-driven.mdc) (AI-assisted debugging)
 • All rules → Each other (comprehensive cross-references)
 ```
 
@@ -269,15 +269,15 @@ Success Metrics:
 ### Beginner (0-3 months with Cursor)
 ```markdown
 Focus Areas:
-1. Master Communication Standards (copyable questions)
-2. Learn basic Security Practices (input validation)
-3. Practice TDD workflow (red-green-refactor)
+1. Master Communication Standards (@rules/always-on/communication-standards.mdc) (copyable questions)
+2. Learn basic Security Practices (@rules/always-on/security-practices.mdc) (input validation)
+3. Practice TDD workflow (@rules/manual/development-workflow.mdc) (red-green-refactor)
 4. Build systematic debugging habits
 
 Recommended Rules:
-• Communication Standards (full implementation)
-• Security Practices (essential patterns)
-• Development Workflow (TDD basics)
+• Communication Standards (@rules/always-on/communication-standards.mdc) (full implementation)
+• Security Practices (@rules/always-on/security-practices.mdc) (essential patterns)
+• Development Workflow (@rules/manual/development-workflow.mdc) (TDD basics)
 ```
 
 ### Intermediate (3-12 months with Cursor)
@@ -290,8 +290,8 @@ Focus Areas:
 
 Recommended Rules:
 • Full Starter Package +
-• Quality Control (testing + documentation)
-• Problem-Solving (systematic debugging)
+• Quality Control (@rules/manual/quality-control.mdc) (testing + documentation)
+• Problem-Solving (@rules/always-on/problem-solving.mdc) (systematic debugging)
 ```
 
 ### Advanced (12+ months with Cursor)
@@ -304,7 +304,7 @@ Focus Areas:
 
 Recommended Rules:
 • Full Expert Package
-• Conversation-Driven Development mastery
+• Conversation-Driven Development (@rules/always-on/conversation-driven.mdc) mastery
 • Custom rule creation and team training
 ```
 
@@ -361,7 +361,7 @@ Consider Your Context:
 ### Immediate Actions (Next 30 minutes)
 ```markdown
 Quick Wins:
-□ Read Communication Standards quick reference
+□ Read Communication Standards (@rules/always-on/communication-standards.mdc) quick reference
 □ Try copyable question format in next AI conversation
 □ Scan current codebase for hardcoded credentials
 □ Set up one micro-milestone for current work
@@ -371,9 +371,9 @@ Quick Wins:
 ### This Week
 ```markdown
 Foundation Building:
-□ Implement full Communication Standards
-□ Add basic Security Practices (input validation)
-□ Create first TDD cycle (red-green-refactor)
+□ Implement full Communication Standards (@rules/always-on/communication-standards.mdc)
+□ Add basic Security Practices (@rules/always-on/security-practices.mdc) (input validation)
+□ Create first TDD cycle (@rules/manual/development-workflow.mdc) (red-green-refactor)
 □ Document one decision using rule patterns
 □ Share rules with team/colleagues
 ```
@@ -420,4 +420,4 @@ System Implementation:
 
 ---
 
-**🎯 Ready to transform your Cursor AI experience? Start with [Communication Standards](rules/communication-standards.mdc) and see immediate results!**
+**🎯 Ready to transform your Cursor AI experience? Start with [Communication Standards](@rules/always-on/communication-standards.mdc) and see immediate results!**
