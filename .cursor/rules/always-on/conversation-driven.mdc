@@ -1,30 +1,6 @@
-# Conversation-Driven Development
-
-**Purpose:** Establish patterns for effective AI-assisted development through structured conversation, iterative verification, and question-first approaches that maximize AI productivity.
-
-**Source Verification:** Patterns extracted from successful AI collaboration sessions and verified through production development workflows.
-
 ---
-
-## Quick Reference
-
-**💬 Question-First Approach**
-- Start with specific, contextual questions
-- Break complex problems into conversation-sized chunks
-- Verify understanding before implementation
-
-**🔄 Iterative Verification**
-- Confirm each step before proceeding
-- Test intermediate results
-- Adjust approach based on feedback
-
-**📝 Documentation-Driven Dialogue**
-- Capture decisions and reasoning
-- Maintain conversation context
-- Create searchable knowledge artifacts
-
+alwaysApply: true
 ---
-
 ## Core Conversation Patterns
 
 ### 1. Question-First Development

@@ -1,30 +1,6 @@
-# Communication Standards for Cursor AI
-
-**Purpose:** Establish consistent, beginner-friendly communication patterns that reduce AI interaction cycles and improve development velocity across any technology stack.
-
-**Source Verification:** Patterns verified through production transcripts and community best practices.
-
 ---
-
-## Quick Reference
-
-**👤 Always Include Context**
-- Start with brief context of current task
-- Mention files you're working with
-- State your experience level when relevant
-
-**🎯 Use Copyable Question Formats**
-- Format questions in code blocks for easy copying
-- Structure multiple questions as numbered lists
-- Include specific examples when asking for help
-
-**📋 Checkpoint System**
-- Ask "Did we fix the problem?" regularly
-- Verify "What was our original goal?" 
-- Confirm understanding before major changes
-
+alwaysApply: true
 ---
-
 ## Core Communication Rules
 
 ### 1. Copyable Question Format
